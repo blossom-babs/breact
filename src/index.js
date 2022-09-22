@@ -1,8 +1,16 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
+import './index.css';
 
 const App = () => {
-  return <h1>This is my react app!</h1>
+  return <div className='header'>
+    <div className='header-inner'>
+      <div>
+        <h1>This is Breact</h1>
+        <p>Blossom's custom react app</p>
+      </div>
+    </div>
+  </div>
 }
 
-ReactDOM.render(<App/>, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('app'))
